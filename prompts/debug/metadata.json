@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "0e154bfd-3f45-4207-b436-631b33a2300b",
+  "slug": "@aman/debug",
+  "type": "prompt",
+  "name": "debug",
+  "description": "",
+  "version": "1.0.0",
+  "author": "unknown",
+  "tags": [],
+  "scope": "global",
+  "visibility": "public",
+  "createdAt": "2026-06-01T09:29:48.704Z",
+  "updatedAt": "2026-06-01T09:29:48.704Z",
+  "integrity": {
+    "algorithm": "sha256",
+    "checksum": "sha256:36cebbd9c7750dfb625a3cd838c6bca13f3c4cc69e8883b119512f8c419eb89a",
+    "signature": null
+  },
+  "dependencies": [],
+  "trust": {
+    "verified": false,
+    "downloads": 0,
+    "rating": null,
+    "publisher": null
+  },
+  "deprecated": null,
+  "originalName": "debug"
+}

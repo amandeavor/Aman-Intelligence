@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "21ccddb5-d9db-4d17-9c65-19a7f8b03593",
+  "slug": "@aman/filesystem",
+  "type": "mcp",
+  "name": "filesystem",
+  "description": "",
+  "version": "1.0.0",
+  "author": "unknown",
+  "tags": [],
+  "scope": "global",
+  "visibility": "public",
+  "createdAt": "2026-06-01T09:29:48.714Z",
+  "updatedAt": "2026-06-01T09:29:48.714Z",
+  "integrity": {
+    "algorithm": "sha256",
+    "checksum": "sha256:5fccba4e3258851acfd0783fd66a8372c3bfa70add89710b08a79376bb7d1129",
+    "signature": null
+  },
+  "dependencies": [],
+  "trust": {
+    "verified": false,
+    "downloads": 0,
+    "rating": null,
+    "publisher": null
+  },
+  "deprecated": null,
+  "originalName": "filesystem"
+}

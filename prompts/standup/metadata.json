@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "d711c053-a60c-4e75-81cb-54cf18cbcc2e",
+  "slug": "@aman/standup",
+  "type": "prompt",
+  "name": "standup",
+  "description": "",
+  "version": "1.0.0",
+  "author": "unknown",
+  "tags": [],
+  "scope": "global",
+  "visibility": "public",
+  "createdAt": "2026-06-01T09:29:48.709Z",
+  "updatedAt": "2026-06-01T09:29:48.709Z",
+  "integrity": {
+    "algorithm": "sha256",
+    "checksum": "sha256:5fa1b965d2518ad6da04a09563156a7762efef1a187b88f8217f7b9878cdf678",
+    "signature": null
+  },
+  "dependencies": [],
+  "trust": {
+    "verified": false,
+    "downloads": 0,
+    "rating": null,
+    "publisher": null
+  },
+  "deprecated": null,
+  "originalName": "standup"
+}

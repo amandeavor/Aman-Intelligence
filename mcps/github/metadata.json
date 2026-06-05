@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "ae10f909-0359-4f26-900a-b736c2eadb7b",
+  "slug": "@aman/github",
+  "type": "mcp",
+  "name": "github",
+  "description": "",
+  "version": "1.0.0",
+  "author": "unknown",
+  "tags": [],
+  "scope": "global",
+  "visibility": "public",
+  "createdAt": "2026-06-01T09:29:48.718Z",
+  "updatedAt": "2026-06-01T09:29:48.718Z",
+  "integrity": {
+    "algorithm": "sha256",
+    "checksum": "sha256:ee6ebf8d9c2fb3727b237aed45fec13152eea121772a31651c7092436f890314",
+    "signature": null
+  },
+  "dependencies": [],
+  "trust": {
+    "verified": false,
+    "downloads": 0,
+    "rating": null,
+    "publisher": null
+  },
+  "deprecated": null,
+  "originalName": "github"
+}
