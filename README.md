@@ -1,6 +1,6 @@
 # Aman Intelligence Asset Registry
 
-The source registry for reusable AI workflow assets used with [Aman Intelligence CLI](https://github.com/amandeavor/aman-intelligence-CLI).
+The source registry for reusable AI workflow assets used with [Aman CLI](https://github.com/amandeavor/aman-cli).
 
 ## Contents
 
@@ -14,8 +14,8 @@ The source registry for reusable AI workflow assets used with [Aman Intelligence
 Clone the repository when contributing or reviewing assets:
 
 ```bash
-git clone https://github.com/amandeavor/aman-intelligence-repo.git
-cd aman-intelligence-repo
+git clone https://github.com/amandeavor/aman-intelligence.git
+cd aman-intelligence
 ```
 
 Use the CLI documentation for installation, registry configuration, and asset-management commands.
