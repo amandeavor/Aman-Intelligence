@@ -1,74 +1,29 @@
-# 🧠 Aman Intelligence — Asset Repository
+# Aman Intelligence Asset Registry
 
-This repository serves as the official registry of AI workflow assets for **Aman Intelligence**. It hosts reusable skills, system prompts, and Model Context Protocol (MCP) server configurations managed by the [Aman CLI (`aman-cli`)](https://github.com/amandeavor/aman-intelligence-CLI).
+The source registry for reusable AI workflow assets used with [Aman Intelligence CLI](https://github.com/amandeavor/aman-intelligence-CLI).
 
----
+## Contents
 
-## 🛠️ Structure & Contents
+- `skills/`: reusable agent instructions and supporting references
+- `prompts/`: task and system prompts
+- `mcps/`: Model Context Protocol configuration assets, where available
+- `aman.json`: registry metadata used by Aman tooling
 
-```
-aman-intelligence-repo/
-├── skills/           # Reusable agent instructions (SKILL.md)
-│   ├── azure-cost/
-│   ├── brainstorming/
-│   ├── caveman/
-│   ├── deploy-to-vercel/
-│   ├── design-mobile-apps/
-│   ├── edit-article/
-│   ├── executing-plans/
-│   ├── find-skills/
-│   ├── frontend-design/
-│   ├── react-best-practices/
-│   ├── react-native-skills/
-│   └── ... and more
-└── prompts/          # Customized system & task prompts (PROMPT.md)
-    ├── debug/
-    └── standup/
-```
+## Use with Aman Intelligence CLI
 
----
+Clone the repository when contributing or reviewing assets:
 
-## 🚀 Quick Start with Aman CLI
-
-You can easily import and install assets directly from this repository using the `aman` CLI tool.
-
-### 1. Install Aman CLI
-If you haven't installed the CLI yet, run:
 ```bash
-npm install -g aman-cli
+git clone https://github.com/amandeavor/aman-intelligence-repo.git
+cd aman-intelligence-repo
 ```
 
-### 2. Import Assets from this Repository
-To import all skills, prompts, and MCP configurations from this repository into your global or local environment:
-```bash
-aman import amandeavor/aman-intelligence-repo --global
-```
+Use the CLI documentation for installation, registry configuration, and asset-management commands.
 
-### 3. Verify Installed Assets
-Check if the skills and prompts were successfully imported and are ready to be used:
-```bash
-aman list --global
-```
+## Contributing
 
----
+Each reusable skill should include a `SKILL.md` file with a clear purpose and instructions. Keep assets focused, avoid copying private configuration, and verify any external references before submitting changes.
 
-## 📂 Asset Specifications
+## Status
 
-Each asset inside this repository follows the standard spec defined in [Aman Asset Spec V1](https://github.com/amandeavor/aman-intelligence-CLI/blob/main/docs/ASSET-SPEC.md):
-- **Skills:** Instruct models on how to act, handle specific workflows, or perform specialized coding tasks.
-- **Prompts:** Structured templates for quick system prompt bootstrapping (e.g. debugging strategies or standup summaries).
-
----
-
-## 🤝 Contributing & Customization
-
-If you want to add your own skills or prompts:
-1. Fork this repository.
-2. Add your skill/prompt directory under `skills/` or `prompts/` (make sure it contains a `SKILL.md` or `PROMPT.md`).
-3. Open a Pull Request to merge your improvements.
-
----
-
-## 📜 License
-
-MIT — see [LICENSE](LICENSE) for details.
+This repository is a content registry, not a standalone application. It does not currently provide an automated validation command.
