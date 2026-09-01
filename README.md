@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="docs/assets/social-preview.png" alt="Aman Intelligence: reusable AI workflow assets" width="100%">
+
 # Aman Intelligence Asset Registry
 
 **The official central catalog of reusable agent skills, system prompts, and MCP configurations.**
