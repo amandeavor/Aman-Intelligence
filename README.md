@@ -20,10 +20,20 @@ cd aman-intelligence
 
 Use the CLI documentation for installation, registry configuration, and asset-management commands.
 
-## Contributing
+## Registry Validation
 
-Each reusable skill should include a `SKILL.md` file with a clear purpose and instructions. Keep assets focused, avoid copying private configuration, and verify any external references before submitting changes.
+Run the registry integrity check locally:
 
-## Status
+```bash
+npm test
+```
 
-This repository is a content registry, not a standalone application. It does not currently provide an automated validation command.
+## Contributing and Governance
+
+- [Contributing Guide](CONTRIBUTING.md)
+- [Security Policy](SECURITY.md)
+- [Code of Conduct](CODE_OF_CONDUCT.md)
+
+## Status and Licensing
+
+This repository is an asset registry. See the license decision issue for status.

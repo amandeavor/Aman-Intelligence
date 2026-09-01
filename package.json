@@ -1,15 +1,18 @@
 {
   "name": "aman-intelligence",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "bin": {
-    "mycli": "bin/mycli.js"
-  },
+  "description": "Asset registry of skills, prompts, and MCPs for Aman Intelligence and Aman CLI",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node scripts/validate-registry.mjs"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "ai",
+    "skills",
+    "prompts",
+    "mcp",
+    "registry"
+  ],
+  "author": "Aman Intelligence",
   "license": "ISC"
 }

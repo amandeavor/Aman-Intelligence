@@ -1,0 +1,22 @@
+name: Skill Proposal / Addition
+description: Propose or submit a new reusable agent skill
+labels: ["component: skills", "needs-discussion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for submitting a new AI workflow skill.
+  - type: textarea
+    id: skill_name
+    attributes:
+      label: Skill Name and Purpose
+      description: Name of the skill and what task/domain it solves.
+    validations:
+      required: true
+  - type: textarea
+    id: overview
+    attributes:
+      label: Overview of Instructions
+      description: Brief summary of the instructions, tools, or references included.
+    validations:
+      required: true

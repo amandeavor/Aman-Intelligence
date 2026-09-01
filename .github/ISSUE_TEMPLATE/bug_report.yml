@@ -1,0 +1,22 @@
+name: Bug / Asset Issue
+description: Report an issue with an existing skill, prompt, or MCP configuration
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Report an issue with an asset in the registry.
+  - type: textarea
+    id: asset_name
+    attributes:
+      label: Asset Name
+      description: Path or name of the affected skill, prompt, or MCP config.
+    validations:
+      required: true
+  - type: textarea
+    id: issue_details
+    attributes:
+      label: Issue Description
+      description: Describe what is broken, outdated, or failing.
+    validations:
+      required: true
